@@ -7,12 +7,12 @@ class ProfileDetailPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.blueGrey,
         title: const Center(
             child: Text(
           'Profile',
           style: TextStyle(
-              fontSize: 20, fontWeight: FontWeight.w500, color: Colors.black87),
+              fontSize: 20, fontWeight: FontWeight.w500, color: Colors.white),
         )),
       ),
     );
