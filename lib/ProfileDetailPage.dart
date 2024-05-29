@@ -15,6 +15,20 @@ class ProfileDetailPage extends StatelessWidget {
               fontSize: 20, fontWeight: FontWeight.w500, color: Colors.white),
         )),
       ),
+      body: Column(
+        children: [
+          Container(
+            height: 100,
+            color: Colors.blue,
+          ),Container(
+            height: 100,
+            color: Colors.red,
+          ),Container(
+            height: 100,
+            color: Colors.tealAccent,
+          ),
+        ],
+      ),
     );
   }
 }
