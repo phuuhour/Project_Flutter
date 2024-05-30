@@ -45,6 +45,7 @@ class ProfileDetailPage extends StatelessWidget {
                               'https://scontent.fpnh11-1.fna.fbcdn.net/v/t39.30808-6/429792839_18387404506075514_8709093994927746276_n.jpg?stp=dst-jpg_p480x480&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeG8DJ-d0LWd6-3-IiBbQO1MqNOjr803BkKo06OvzTcGQsEmhO5q0E14uWdSlPWcgmGMUdhgbv0FrQ8R94u__2AW&_nc_ohc=9DKLB7out2cQ7kNvgEZ4WUV&_nc_ht=scontent.fpnh11-1.fna&oh=00_AYDr7a_Go2E5S2JbaNmCrlmhcdme6hr2JVz--EcjsEv-hw&oe=665DCEBE')),
                     ),
                   ),
+                  //update
                   const Padding(
                     padding: EdgeInsets.only(top: 95, left: 120),
                     child: Text(
