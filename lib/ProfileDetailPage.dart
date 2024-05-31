@@ -29,7 +29,7 @@ class ProfileDetailPage extends StatelessWidget {
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(8),
                         color: Colors.grey[850]),
-                    height: 190,
+                    height: 185,
                     width: MediaQuery.of(context).size.width,
                     child: Stack(
                       children: [
@@ -87,7 +87,7 @@ class ProfileDetailPage extends StatelessWidget {
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(8),
                         color: Colors.grey[850]),
-                    height: 250,
+                    height: 240,
                     //width: double.infinity,
                     width: MediaQuery.of(context).size.width,
                     //color: Colors.brown[800],
@@ -169,7 +169,7 @@ class ProfileDetailPage extends StatelessWidget {
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(8),
                         color: Colors.grey[850]),
-                    height: 250,
+                    height: 240,
                     width: MediaQuery.of(context).size.width,
                     child: const Stack(
                       children: [
@@ -304,7 +304,7 @@ class ProfileDetailPage extends StatelessWidget {
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(8),
                         color: Colors.grey[850]),
-                    height: 195,
+                    height: 185,
                     width: MediaQuery.of(context).size.width,
                     child: const Stack(
                       children: [
@@ -360,14 +360,15 @@ class ProfileDetailPage extends StatelessWidget {
                       ],
                     ),
                   ),
-                ),Padding(
+                ),
+                Padding(
                   padding:
                       const EdgeInsets.only(left: 10, right: 10, bottom: 10),
                   child: Container(
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(8),
                         color: Colors.grey[850]),
-                    height: 195,
+                    height: 185,
                     width: MediaQuery.of(context).size.width,
                     child: const Stack(
                       children: [
@@ -424,6 +425,70 @@ class ProfileDetailPage extends StatelessWidget {
                     ),
                   ),
                 ),
+                Padding(
+                  padding:
+                      const EdgeInsets.only(left: 10, right: 10, bottom: 10),
+                  child: Container(
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(8),
+                        color: Colors.grey[850]),
+                    height: 185,
+                    width: MediaQuery.of(context).size.width,
+                    child: const Stack(
+                      children: [
+                        Padding(
+                          padding: EdgeInsets.only(top: 20, left: 20),
+                          child: Text(
+                            'Additional Features (Advanced)',
+                            style: TextStyle(
+                                fontWeight: FontWeight.w500,
+                                fontSize: 22,
+                                color: Colors.white),
+                          ),
+                        ),
+                        Padding(
+                          padding: EdgeInsets.only(top: 60, left: 0),
+                          child: Column(
+                            children: [
+                              ListTile(
+                                title: Text(
+                                  'Special Instructions',
+                                  style: TextStyle(
+                                      color: Colors.white, fontSize: 18),
+                                ),
+                                leading: Icon(
+                                  Icons.hourglass_empty,
+                                  color: Colors.white54,
+                                ),
+                                trailing: Icon(
+                                  Icons.arrow_forward_ios,
+                                  color: Colors.white54,
+                                  size: 20,
+                                ),
+                              ),
+                              ListTile(
+                                title: Text(
+                                  'Preferred Barista (Advanced)',
+                                  style: TextStyle(
+                                      color: Colors.white, fontSize: 18),
+                                ),
+                                leading: Icon(
+                                  Icons.loyalty,
+                                  color: Colors.white54,
+                                ),
+                                trailing: Icon(
+                                  Icons.arrow_forward_ios,
+                                  color: Colors.white54,
+                                  size: 20,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                )
               ],
             ),
           ),
