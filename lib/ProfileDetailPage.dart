@@ -29,7 +29,7 @@ class ProfileDetailPage extends StatelessWidget {
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(8),
                         color: Colors.grey[850]),
-                    height: 185,
+                    height: 190,
                     width: MediaQuery.of(context).size.width,
                     child: Stack(
                       children: [
