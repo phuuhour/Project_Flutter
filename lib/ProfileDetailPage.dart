@@ -52,14 +52,14 @@ class ProfileDetailPage extends StatelessWidget {
                                 height: 80,
                                 width: 80,
                                 image: NetworkImage(
-                                    'https://scontent.fpnh11-1.fna.fbcdn.net/v/t39.30808-6/429792839_18387404506075514_8709093994927746276_n.jpg?stp=dst-jpg_p480x480&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeG8DJ-d0LWd6-3-IiBbQO1MqNOjr803BkKo06OvzTcGQsEmhO5q0E14uWdSlPWcgmGMUdhgbv0FrQ8R94u__2AW&_nc_ohc=9DKLB7out2cQ7kNvgEZ4WUV&_nc_ht=scontent.fpnh11-1.fna&oh=00_AYDr7a_Go2E5S2JbaNmCrlmhcdme6hr2JVz--EcjsEv-hw&oe=665DCEBE')),
+                                    'https://scontent.fpnh10-1.fna.fbcdn.net/v/t39.30808-1/444505287_1151922775853237_877715756016378631_n.jpg?stp=cp6_dst-jpg_p200x200&_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGZoRoSrn0oW2zdACu0l68eO8xAMzFz5_I7zEAzMXPn8llaskMi_4Cp_wridZwWVx3bFginVhoOAVnQTEc-lG5f&_nc_ohc=nE_gILrXp20Q7kNvgHJLSvR&_nc_ht=scontent.fpnh10-1.fna&oh=00_AYCtc3W_Q1tQ64ytPRLt5sEN6JKA1iguz_luoBEj3dcIqQ&oe=6660E1B3')),
                           ),
                         ),
                         //update
                         const Padding(
                           padding: EdgeInsets.only(top: 80, left: 120),
                           child: Text(
-                            'Sous Visa',
+                            'LY VENGHOUR',
                             style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 20,
