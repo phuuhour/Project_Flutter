@@ -1,9 +1,9 @@
-import 'package:coffeeapp/ProfileDetailPage.dart';
 import 'package:flutter/material.dart';
+import 'ProfileEdit.dart';
 
 void main() {
   runApp(const MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: ProfileDetailPage(),
+    home: ProfileEdit(),
   ));
 }
