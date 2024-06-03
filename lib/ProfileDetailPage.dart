@@ -59,7 +59,7 @@ class ProfileDetailPage extends StatelessWidget {
                         const Padding(
                           padding: EdgeInsets.only(top: 80, left: 120),
                           child: Text(
-                            'Ly cody',
+                            'VENG_HOUR',
                             style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 20,
