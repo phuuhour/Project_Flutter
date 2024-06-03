@@ -1,4 +1,3 @@
-import 'package:coffeeapp/ProfileDetailPage.dart';
 import 'package:flutter/material.dart';
 import 'ProfileEdit.dart';
 
