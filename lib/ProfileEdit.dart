@@ -179,7 +179,7 @@ class ProfileEdit extends StatelessWidget {
                       child: Stack(
                         children: [
                           Padding(
-                            padding: const EdgeInsets.only(left: 40, top: 50),
+                            padding: const EdgeInsets.only(left: 50, top: 50),
                             child: MaterialButton(
                               onPressed: () {},
                               color: Colors.grey[900],
@@ -193,7 +193,7 @@ class ProfileEdit extends StatelessWidget {
                           ),
                           Positioned(
                             top: 50,
-                            right: 40,
+                            right: 50,
                             child: MaterialButton(
                               onPressed: () {},
                               color: Colors.grey[900],
