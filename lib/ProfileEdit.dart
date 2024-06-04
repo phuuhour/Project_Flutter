@@ -74,7 +74,7 @@ class ProfileEdit extends StatelessWidget {
                       ),
                       child: TextField(
                         decoration: InputDecoration(
-                            prefixIcon: Icon(Icons.text_fields),
+                            prefixIcon: Icon(Icons.text_fields,color: Colors.white54,),
                             label: Text('Bio'),
                             labelStyle: TextStyle(color: Colors.white54)),
                         cursorColor: Colors.white,
@@ -89,7 +89,7 @@ class ProfileEdit extends StatelessWidget {
                       ),
                       child: TextField(
                         decoration: InputDecoration(
-                            prefixIcon: Icon(Icons.drive_file_rename_outline),
+                            prefixIcon: Icon(Icons.drive_file_rename_outline,color: Colors.white54,),
                             label: Text('Username'),
                             labelStyle: TextStyle(color: Colors.white54)),
                         cursorColor: Colors.white,
@@ -104,7 +104,7 @@ class ProfileEdit extends StatelessWidget {
                       ),
                       child: TextField(
                         decoration: InputDecoration(
-                            prefixIcon: Icon(Icons.email),
+                            prefixIcon: Icon(Icons.email,color: Colors.white54,),
                             label: Text('Email'),
                             labelStyle: TextStyle(color: Colors.white54)),
                         cursorColor: Colors.white,
@@ -119,7 +119,7 @@ class ProfileEdit extends StatelessWidget {
                       ),
                       child: TextField(
                         decoration: InputDecoration(
-                            prefixIcon: Icon(Icons.phone),
+                            prefixIcon: Icon(Icons.phone,color: Colors.white54,),
                             label: Text('Phone Number'),
                             labelStyle: TextStyle(color: Colors.white54)),
                         cursorColor: Colors.white,
