@@ -74,7 +74,10 @@ class ProfileEdit extends StatelessWidget {
                       ),
                       child: TextField(
                         decoration: InputDecoration(
-                            prefixIcon: Icon(Icons.text_fields,color: Colors.white54,),
+                            prefixIcon: Icon(
+                              Icons.text_fields,
+                              color: Colors.white54,
+                            ),
                             label: Text('Bio'),
                             labelStyle: TextStyle(color: Colors.white54)),
                         cursorColor: Colors.white,
@@ -89,7 +92,10 @@ class ProfileEdit extends StatelessWidget {
                       ),
                       child: TextField(
                         decoration: InputDecoration(
-                            prefixIcon: Icon(Icons.drive_file_rename_outline,color: Colors.white54,),
+                            prefixIcon: Icon(
+                              Icons.drive_file_rename_outline,
+                              color: Colors.white54,
+                            ),
                             label: Text('Username'),
                             labelStyle: TextStyle(color: Colors.white54)),
                         cursorColor: Colors.white,
@@ -104,7 +110,10 @@ class ProfileEdit extends StatelessWidget {
                       ),
                       child: TextField(
                         decoration: InputDecoration(
-                            prefixIcon: Icon(Icons.email,color: Colors.white54,),
+                            prefixIcon: Icon(
+                              Icons.email,
+                              color: Colors.white54,
+                            ),
                             label: Text('Email'),
                             labelStyle: TextStyle(color: Colors.white54)),
                         cursorColor: Colors.white,
@@ -119,7 +128,10 @@ class ProfileEdit extends StatelessWidget {
                       ),
                       child: TextField(
                         decoration: InputDecoration(
-                            prefixIcon: Icon(Icons.phone,color: Colors.white54,),
+                            prefixIcon: Icon(
+                              Icons.phone,
+                              color: Colors.white54,
+                            ),
                             label: Text('Phone Number'),
                             labelStyle: TextStyle(color: Colors.white54)),
                         cursorColor: Colors.white,
@@ -131,7 +143,7 @@ class ProfileEdit extends StatelessWidget {
                       child: Stack(
                         children: [
                           Padding(
-                            padding: const EdgeInsets.only(left: 40, top: 50),
+                            padding: const EdgeInsets.only(left: 40, top: 80),
                             child: SizedBox(
                               width: 120,
                               child: MaterialButton(
@@ -148,7 +160,7 @@ class ProfileEdit extends StatelessWidget {
                             ),
                           ),
                           Positioned(
-                            top: 50,
+                            top: 80,
                             right: 40,
                             child: SizedBox(
                               width: 120,
