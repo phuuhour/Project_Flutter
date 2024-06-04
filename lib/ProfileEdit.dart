@@ -69,7 +69,7 @@ class ProfileEdit extends StatelessWidget {
                     const Padding(
                       padding: EdgeInsets.only(
                         top: 20,
-                        left: 10,
+                        left: 20,
                       ),
                       child: Text(
                         'Bio',
@@ -81,8 +81,8 @@ class ProfileEdit extends StatelessWidget {
                     ),
                     const Padding(
                       padding: EdgeInsets.only(
-                        left: 10,
-                        right: 10,
+                        left: 20,
+                        right: 20,
                       ),
                       child: TextField(
                         decoration: InputDecoration(
@@ -96,7 +96,7 @@ class ProfileEdit extends StatelessWidget {
                     const Padding(
                       padding: EdgeInsets.only(
                         top: 20,
-                        left: 10,
+                        left: 20,
                       ),
                       child: Text(
                         'Username',
@@ -108,8 +108,8 @@ class ProfileEdit extends StatelessWidget {
                     ),
                     const Padding(
                       padding: EdgeInsets.only(
-                        left: 10,
-                        right: 10,
+                        left: 20,
+                        right: 20,
                       ),
                       child: TextField(
                         decoration: InputDecoration(
@@ -123,7 +123,7 @@ class ProfileEdit extends StatelessWidget {
                     const Padding(
                       padding: EdgeInsets.only(
                         top: 20,
-                        left: 10,
+                        left: 20,
                       ),
                       child: Text(
                         'Email',
@@ -135,8 +135,8 @@ class ProfileEdit extends StatelessWidget {
                     ),
                     const Padding(
                       padding: EdgeInsets.only(
-                        left: 10,
-                        right: 10,
+                        left: 20,
+                        right: 20,
                       ),
                       child: TextField(
                         decoration: InputDecoration(
@@ -150,7 +150,7 @@ class ProfileEdit extends StatelessWidget {
                     const Padding(
                       padding: EdgeInsets.only(
                         top: 20,
-                        left: 10,
+                        left: 20,
                       ),
                       child: Text(
                         'Phone Number',
@@ -162,8 +162,8 @@ class ProfileEdit extends StatelessWidget {
                     ),
                     const Padding(
                       padding: EdgeInsets.only(
-                        left: 10,
-                        right: 10,
+                        left: 20,
+                        right: 20,
                       ),
                       child: TextField(
                         decoration: InputDecoration(
