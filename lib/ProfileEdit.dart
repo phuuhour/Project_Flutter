@@ -70,18 +70,6 @@ class ProfileEdit extends StatelessWidget {
                       padding: EdgeInsets.only(
                         top: 20,
                         left: 20,
-                      ),
-                      child: Text(
-                        'Bio',
-                        style: TextStyle(
-                          fontSize: 17,
-                          color: Colors.white,
-                        ),
-                      ),
-                    ),
-                    const Padding(
-                      padding: EdgeInsets.only(
-                        left: 20,
                         right: 20,
                       ),
                       child: TextField(
@@ -96,18 +84,6 @@ class ProfileEdit extends StatelessWidget {
                     const Padding(
                       padding: EdgeInsets.only(
                         top: 20,
-                        left: 20,
-                      ),
-                      child: Text(
-                        'Username',
-                        style: TextStyle(
-                          fontSize: 17,
-                          color: Colors.white,
-                        ),
-                      ),
-                    ),
-                    const Padding(
-                      padding: EdgeInsets.only(
                         left: 20,
                         right: 20,
                       ),
@@ -124,18 +100,6 @@ class ProfileEdit extends StatelessWidget {
                       padding: EdgeInsets.only(
                         top: 20,
                         left: 20,
-                      ),
-                      child: Text(
-                        'Email',
-                        style: TextStyle(
-                          fontSize: 17,
-                          color: Colors.white,
-                        ),
-                      ),
-                    ),
-                    const Padding(
-                      padding: EdgeInsets.only(
-                        left: 20,
                         right: 20,
                       ),
                       child: TextField(
@@ -150,18 +114,6 @@ class ProfileEdit extends StatelessWidget {
                     const Padding(
                       padding: EdgeInsets.only(
                         top: 20,
-                        left: 20,
-                      ),
-                      child: Text(
-                        'Phone Number',
-                        style: TextStyle(
-                          fontSize: 17,
-                          color: Colors.white,
-                        ),
-                      ),
-                    ),
-                    const Padding(
-                      padding: EdgeInsets.only(
                         left: 20,
                         right: 20,
                       ),
