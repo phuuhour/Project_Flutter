@@ -179,29 +179,35 @@ class ProfileEdit extends StatelessWidget {
                       child: Stack(
                         children: [
                           Padding(
-                            padding: const EdgeInsets.only(left: 50, top: 50),
-                            child: MaterialButton(
-                              onPressed: () {},
-                              color: Colors.grey[900],
-                              height: 40,
-                              elevation: 2,
-                              child: const Text(
-                                'Cancel',
-                                style: TextStyle(color: Colors.white),
+                            padding: const EdgeInsets.only(left: 40, top: 50),
+                            child: SizedBox(
+                              width: 120,
+                              child: MaterialButton(
+                                onPressed: () {},
+                                color: Colors.grey[900],
+                                height: 40,
+                                elevation: 2,
+                                child: const Text(
+                                  'Cancel',
+                                  style: TextStyle(color: Colors.white),
+                                ),
                               ),
                             ),
                           ),
                           Positioned(
                             top: 50,
-                            right: 50,
-                            child: MaterialButton(
-                              onPressed: () {},
-                              color: Colors.grey[900],
-                              height: 40,
-                              elevation: 2,
-                              child: const Text(
-                                'Save',
-                                style: TextStyle(color: Colors.white),
+                            right: 40,
+                            child: SizedBox(
+                              width: 120,
+                              child: MaterialButton(
+                                onPressed: () {},
+                                color: Colors.grey[900],
+                                height: 40,
+                                elevation: 2,
+                                child: const Text(
+                                  'Save',
+                                  style: TextStyle(color: Colors.white),
+                                ),
                               ),
                             ),
                           ),
