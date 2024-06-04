@@ -189,7 +189,8 @@ class ProfileEdit extends StatelessWidget {
                                 elevation: 2,
                                 child: const Text(
                                   'Cancel',
-                                  style: TextStyle(color: Colors.white),
+                                  style: TextStyle(
+                                      color: Colors.white, fontSize: 15),
                                 ),
                               ),
                             ),
@@ -206,7 +207,8 @@ class ProfileEdit extends StatelessWidget {
                                 elevation: 2,
                                 child: const Text(
                                   'Save',
-                                  style: TextStyle(color: Colors.white),
+                                  style: TextStyle(
+                                      color: Colors.white, fontSize: 15),
                                 ),
                               ),
                             ),
