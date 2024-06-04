@@ -68,7 +68,7 @@ class ProfileEdit extends StatelessWidget {
                     ),
                     const Padding(
                       padding: EdgeInsets.only(
-                        top: 20,
+                        top: 15,
                         left: 20,
                         right: 20,
                       ),
@@ -83,7 +83,7 @@ class ProfileEdit extends StatelessWidget {
                     ),
                     const Padding(
                       padding: EdgeInsets.only(
-                        top: 20,
+                        top: 15,
                         left: 20,
                         right: 20,
                       ),
@@ -98,7 +98,7 @@ class ProfileEdit extends StatelessWidget {
                     ),
                     const Padding(
                       padding: EdgeInsets.only(
-                        top: 20,
+                        top: 15,
                         left: 20,
                         right: 20,
                       ),
@@ -113,7 +113,7 @@ class ProfileEdit extends StatelessWidget {
                     ),
                     const Padding(
                       padding: EdgeInsets.only(
-                        top: 20,
+                        top: 15,
                         left: 20,
                         right: 20,
                       ),
