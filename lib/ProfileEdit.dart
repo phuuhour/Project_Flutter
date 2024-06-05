@@ -7,14 +7,14 @@ class ProfileEdit extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        leading: const BackButton(color: Colors.white),
         elevation: 0,
         backgroundColor: Colors.grey[850],
-        title: const Center(
-          child: Text(
-            'Profile',
-            style: TextStyle(
-                fontSize: 24, fontWeight: FontWeight.w500, color: Colors.white),
-          ),
+        centerTitle: true,
+        title: const Text(
+          'Profile',
+          style: TextStyle(
+              fontSize: 22, fontWeight: FontWeight.w500, color: Colors.white),
         ),
       ),
       body: SafeArea(
@@ -59,7 +59,7 @@ class ProfileEdit extends StatelessWidget {
                               ),
                               child: const Icon(
                                 Icons.edit,
-                                color: Colors.white,
+                                color: Colors.blue,
                               ),
                             ),
                           )
@@ -86,7 +86,7 @@ class ProfileEdit extends StatelessWidget {
                       ),
                       child: TextField(
                         decoration: InputDecoration(
-                            prefixIcon: Icon(Icons.text_fields),
+                            prefixIcon: Icon(Icons.text_fields,color: Colors.white54,),
                             label: Text('Bio'),
                             labelStyle: TextStyle(color: Colors.white54)),
                         cursorColor: Colors.white,
@@ -113,7 +113,7 @@ class ProfileEdit extends StatelessWidget {
                       ),
                       child: TextField(
                         decoration: InputDecoration(
-                            prefixIcon: Icon(Icons.drive_file_rename_outline),
+                            prefixIcon: Icon(Icons.drive_file_rename_outline,color: Colors.white54,),
                             label: Text('Username'),
                             labelStyle: TextStyle(color: Colors.white54)),
                         cursorColor: Colors.white,
@@ -140,7 +140,7 @@ class ProfileEdit extends StatelessWidget {
                       ),
                       child: TextField(
                         decoration: InputDecoration(
-                            prefixIcon: Icon(Icons.email),
+                            prefixIcon: Icon(Icons.email,color: Colors.white54,),
                             label: Text('Email'),
                             labelStyle: TextStyle(color: Colors.white54)),
                         cursorColor: Colors.white,
@@ -167,7 +167,7 @@ class ProfileEdit extends StatelessWidget {
                       ),
                       child: TextField(
                         decoration: InputDecoration(
-                            prefixIcon: Icon(Icons.phone),
+                            prefixIcon: Icon(Icons.phone,color: Colors.white54,),
                             label: Text('Phone Number'),
                             labelStyle: TextStyle(color: Colors.white54)),
                         cursorColor: Colors.white,
@@ -185,7 +185,7 @@ class ProfileEdit extends StatelessWidget {
                               child: MaterialButton(
                                 onPressed: () {},
                                 color: Colors.grey[900],
-                                height: 40,
+                                height: 45,
                                 elevation: 2,
                                 child: const Text(
                                   'Cancel',
@@ -203,7 +203,7 @@ class ProfileEdit extends StatelessWidget {
                               child: MaterialButton(
                                 onPressed: () {},
                                 color: Colors.grey[900],
-                                height: 40,
+                                height: 45,
                                 elevation: 2,
                                 child: const Text(
                                   'Save',

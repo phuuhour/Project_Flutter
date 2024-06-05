@@ -14,7 +14,7 @@ class ProfileDetailPage extends StatelessWidget {
           child: Text(
             'Setting',
             style: TextStyle(
-                fontSize: 24, fontWeight: FontWeight.w500, color: Colors.white),
+                fontSize: 22, fontWeight: FontWeight.w500, color: Colors.white),
           ),
         ),
       ),
