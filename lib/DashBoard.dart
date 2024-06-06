@@ -8,6 +8,18 @@ class DashBoard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        leading: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: SizedBox(
+              height: 15,
+              width: 15,
+              child: Image.network(
+                'https://cdn.freebiesupply.com/logos/large/2x/starbucks-coffee-logo-png-transparent.png',
+                width: 15,
+                height: 15,
+                fit: BoxFit.cover,
+              )),
+        ),
         actions: [
           IconButton(
               onPressed: () {
@@ -25,11 +37,6 @@ class DashBoard extends StatelessWidget {
                 color: Colors.white,
               ))
         ],
-        title: const Text(
-          'Coffee',
-          style: TextStyle(
-              color: Colors.white, fontSize: 22, fontWeight: FontWeight.w500),
-        ),
         backgroundColor: Colors.grey[850],
       ),
       bottomNavigationBar: BottomNavigationBar(
