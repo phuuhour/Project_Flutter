@@ -64,7 +64,10 @@ class DashBoard extends StatelessWidget {
           ),
         ],
       ),
-      body: SafeArea(
+      body: Container(
+        color: Colors.black87,
+        height: MediaQuery.of(context).size.height,
+        width: MediaQuery.of(context).size.width,
         child: Padding(
           padding: const EdgeInsets.all(8.0),
           child: SizedBox(
@@ -85,15 +88,8 @@ class DashBoard extends StatelessWidget {
                 hintText: 'Search...',
                 hintStyle: const TextStyle(color: Colors.white54),
                 border: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(5),
+                  borderRadius: BorderRadius.circular(4),
                   borderSide: BorderSide.none,
-                ),
-                focusedBorder: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(5),
-                  borderSide: BorderSide(
-                    color: Colors.blue.withOpacity(0.20),
-                    width: 1,
-                  ),
                 ),
                 fillColor: Colors.grey[850],
                 filled: true,
