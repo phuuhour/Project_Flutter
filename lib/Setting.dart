@@ -133,7 +133,8 @@ class Setting extends StatelessWidget {
                               InkWell(
                                 onTap: () {
                                   Navigator.of(context).push(MaterialPageRoute(
-                                      builder: (context) => const OrderHistory()));
+                                      builder: (context) =>
+                                          const OrderHistory()));
                                 },
                                 child: const ListTile(
                                   title: Text(
