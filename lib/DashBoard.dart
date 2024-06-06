@@ -64,40 +64,46 @@ class DashBoard extends StatelessWidget {
           ),
         ],
       ),
-      body: Container(
-        color: Colors.black87,
-        height: MediaQuery.of(context).size.height,
-        width: MediaQuery.of(context).size.width,
-        child: Padding(
-          padding: const EdgeInsets.all(8.0),
-          child: SizedBox(
-            height: 45,
-            child: TextFormField(
-              cursorColor: Colors.white,
-              controller: TextEditingController(),
-              textAlign: TextAlign.start,
-              maxLines: 1,
-              style: const TextStyle(
-                fontWeight: FontWeight.w400,
-                fontStyle: FontStyle.normal,
-                fontSize: 18,
-                color: Colors.white,
-              ),
-              cursorHeight: 24,
-              decoration: InputDecoration(
-                hintText: 'Search...',
-                hintStyle: const TextStyle(color: Colors.white54),
-                border: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(4),
-                  borderSide: BorderSide.none,
+      body: SafeArea(
+        child: Container(
+          color: Colors.black87,
+          height: MediaQuery.of(context).size.height,
+          width: MediaQuery.of(context).size.width,
+          child: Column(
+            children: [
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: SizedBox(
+                  height: 45,
+                  child: TextFormField(
+                    cursorColor: Colors.white,
+                    controller: TextEditingController(),
+                    textAlign: TextAlign.start,
+                    maxLines: 1,
+                    style: const TextStyle(
+                      fontWeight: FontWeight.w400,
+                      fontStyle: FontStyle.normal,
+                      fontSize: 18,
+                      color: Colors.white,
+                    ),
+                    cursorHeight: 24,
+                    decoration: InputDecoration(
+                      hintText: 'Search...',
+                      hintStyle: const TextStyle(color: Colors.white54),
+                      border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(4),
+                        borderSide: BorderSide.none,
+                      ),
+                      fillColor: Colors.grey[850],
+                      filled: true,
+                      prefixIcon: const Icon(Icons.search),
+                      prefixIconColor: Colors.white,
+                      contentPadding: const EdgeInsets.symmetric(vertical: 10),
+                    ),
+                  ),
                 ),
-                fillColor: Colors.grey[850],
-                filled: true,
-                prefixIcon: const Icon(Icons.search),
-                prefixIconColor: Colors.white,
-                contentPadding: const EdgeInsets.symmetric(vertical: 10),
               ),
-            ),
+            ],
           ),
         ),
       ),
