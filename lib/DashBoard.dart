@@ -9,12 +9,12 @@ class DashBoard extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         leading: Padding(
-          padding: const EdgeInsets.all(8.0),
+          padding: const EdgeInsets.only(top: 10, left: 15, bottom: 10),
           child: SizedBox(
               height: 15,
               width: 15,
-              child: Image.network(
-                'https://cdn.freebiesupply.com/logos/large/2x/starbucks-coffee-logo-png-transparent.png',
+              child: Image.asset(
+                'assets/images/cafe_building_shop_coffee_store_icon_210184.png',
                 width: 15,
                 height: 15,
                 fit: BoxFit.cover,
@@ -64,8 +64,46 @@ class DashBoard extends StatelessWidget {
           ),
         ],
       ),
-      body: Container(
-        color: Colors.black87,
+      body: SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: SizedBox(
+            height: 45,
+            child: TextFormField(
+              cursorColor: Colors.white,
+              controller: TextEditingController(),
+              textAlign: TextAlign.start,
+              maxLines: 1,
+              style: const TextStyle(
+                fontWeight: FontWeight.w400,
+                fontStyle: FontStyle.normal,
+                fontSize: 18,
+                color: Colors.white,
+              ),
+              cursorHeight: 24,
+              decoration: InputDecoration(
+                hintText: 'Search...',
+                hintStyle: const TextStyle(color: Colors.white54),
+                border: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(5),
+                  borderSide: BorderSide.none,
+                ),
+                focusedBorder: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(5),
+                  borderSide: BorderSide(
+                    color: Colors.blue.withOpacity(0.20),
+                    width: 1,
+                  ),
+                ),
+                fillColor: Colors.grey[850],
+                filled: true,
+                prefixIcon: const Icon(Icons.search),
+                prefixIconColor: Colors.white,
+                contentPadding: const EdgeInsets.symmetric(vertical: 10),
+              ),
+            ),
+          ),
+        ),
       ),
     );
   }
