@@ -32,11 +32,11 @@ class OrderHistory extends StatelessWidget {
         ),
       ),
       body: SafeArea(
-        child: Container(
-          color: Colors.black87,
-          child: Padding(
-            padding: const EdgeInsets.all(10),
-            child: SingleChildScrollView(
+        child: SingleChildScrollView(
+          child: Container(
+            color: Colors.black87,
+            child: Padding(
+              padding: const EdgeInsets.all(10),
               child: Container(
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(8),
