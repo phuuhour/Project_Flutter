@@ -72,7 +72,7 @@ class DashBoard extends StatelessWidget {
           child: Column(
             children: [
               Padding(
-                padding: const EdgeInsets.all(8.0),
+                padding: const EdgeInsets.only(top: 10, left: 8, right: 8),
                 child: SizedBox(
                   height: 45,
                   child: TextFormField(
