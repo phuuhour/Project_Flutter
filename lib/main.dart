@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'ProfileDetailPage.dart';
+import 'Setting.dart';
 
 void main() {
   runApp(const MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: ProfileDetailPage(),
+    home: Setting(),
   ));
 }
