@@ -41,7 +41,7 @@ class DashBoard extends StatelessWidget {
       ),
       bottomNavigationBar: BottomNavigationBar(
         backgroundColor: Colors.grey[850],
-        currentIndex: 0,
+        currentIndex: 03,
         type: BottomNavigationBarType.fixed,
         selectedItemColor: Colors.white,
         unselectedItemColor: Colors.white38,
