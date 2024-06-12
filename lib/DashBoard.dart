@@ -1,3 +1,4 @@
+import 'package:coffeeapp/Notification.dart';
 import 'package:coffeeapp/Setting.dart';
 import 'package:flutter/material.dart';
 
@@ -31,7 +32,10 @@ class DashBoard extends StatelessWidget {
                 color: Colors.white,
               )),
           IconButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.of(context).push(MaterialPageRoute(
+                    builder: (context) => const NotificationPage()));
+              },
               icon: const Icon(
                 Icons.notifications,
                 color: Colors.white,
@@ -41,7 +45,7 @@ class DashBoard extends StatelessWidget {
       ),
       bottomNavigationBar: BottomNavigationBar(
         backgroundColor: Colors.grey[850],
-        currentIndex: 03,
+        currentIndex: 0,
         type: BottomNavigationBarType.fixed,
         selectedItemColor: Colors.white,
         unselectedItemColor: Colors.white38,

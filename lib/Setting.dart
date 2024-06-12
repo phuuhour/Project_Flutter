@@ -62,7 +62,7 @@ class Setting extends StatelessWidget {
                                   height: 80,
                                   width: 80,
                                   image: NetworkImage(
-                                      'https://scontent.fpnh11-1.fna.fbcdn.net/v/t39.30808-6/414732450_1065877734457742_2364415163889367136_n.jpg?stp=dst-jpg_p526x296&_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHotUA8yOfvnUvcgvCO3lOYildXcAjneaaKV1dwCOd5psMbub_QPvjbHHobsUHTAAf_HSjQ0qzf_dRY_dx4U0Bf&_nc_ohc=V9vdtbBUPvEQ7kNvgHnR9sk&_nc_ht=scontent.fpnh11-1.fna&oh=00_AYAKaECVLfTFimdOVl2x_rSfk27EMPG2JVP62FIJYYYa1Q&oe=6666F34E')),
+                                      'https://scontent.fpnh11-1.fna.fbcdn.net/v/t39.30808-6/447511355_423250920693420_7265549173597236193_n.jpg?stp=dst-jpg_s640x640&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeH1sedHwC85vH7IDgj_moNmV27wZcxkd11XbvBlzGR3XYT3lsahzkwdVU9_9IqqSNO9ZpAMH86Q0YVnwLdRzrJy&_nc_ohc=rf24rua5m_cQ7kNvgEkRFRH&_nc_ht=scontent.fpnh11-1.fna&oh=00_AYBakFs9eYtsE0tXWdjIBYO3zTIjW6KSR1NtXaJLXUFnqQ&oe=666DB232')),
                             ),
                           ),
                           //update
